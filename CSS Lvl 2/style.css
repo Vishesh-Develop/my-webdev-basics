@@ -1,0 +1,102 @@
+*{ /* Universal Selector apply the below property on every element */
+    font-family: 'Courier New';
+}
+
+h3,h1 { /* Element Selector Select all element of same type */
+    color: #f52936;
+}
+
+/* ID Selector selects an element based on the value of element's ID attribute. CSS is only applied to that particular element. ID should be unique for every element*/
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #f52936;
+    color: white;
+}
+
+/* A CLASS selector doesn't check the element type. If multiple elements have the same class name, the CSS rule applies to all of them, regardless of their element type. */
+
+.upvote{
+    background-color: burlywood;
+    color: black;
+    font-weight: bold;
+}
+
+/* Descendant selector selects an element that is inside another element, at any level of nesting. */
+.post a{
+    color: purple;
+}
+
+nav ul li  { /* under 3 level descendant*/
+    color: hotpink;
+}
+nav ul li a{
+    color:deeppink;
+}
+
+/* Sibling Combinator */
+/* Eg: h3 that comes immediately after any paragraph */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+/* Child combinator if we want to establish child relation b/w two selectors we use child combinator */
+div > input{
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+/* Atrribute Selector Select element based on the presence or  value of a given attribute */
+
+input[type="text"] {
+    color: pink;
+}
+
+div[id="myid"] {
+    color:blue;
+}
+
+/* Pseudo Class */
+
+button:hover {
+    background-color:chartreuse;
+    color:black;
+}
+
+button:active {
+    background-color:white;
+}
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: burlywood;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+#myid p::first-line {
+    color: black;
+}
+
+#myid p:hover::first-line{
+    color: indianred;
+    font-weight: bold;
+}
+
+#myid p::selection{
+    background-color: #f52936;
+    color: aliceblue;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first  Website</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+
+        <!-- Table -->
+        <table border="black">
+            <caption>A test table with merged cells</caption>
+            <!-- Table header -->
+            <thead>
+                <tr>
+                    <th rowspan="2">Sex</th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red Eyes</th>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <th>Weight</th>
+                </tr>
+            </thead>
+            <!-- Table body -->
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+                <td>Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </table>
+
+        <!-- Example of a standard signup form using POST -->
+        <form action="/submit-profile" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit">Create Account</button>
+        </form>
+
+    </body>
+</html>

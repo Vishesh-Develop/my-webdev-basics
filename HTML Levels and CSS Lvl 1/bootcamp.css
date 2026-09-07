@@ -1,0 +1,39 @@
+*{
+    text-align: left;
+}
+
+h2{
+    color: rgb(0,0,255);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: wavy underline ;
+}
+
+#Weight{
+    color: black;
+    background-color: white;
+}
+
+p{
+    background-color: black;
+    color: whitesmoke;
+}
+
+button{
+    background-color: lightskyblue;
+    color: black;
+}
+
+h1{
+    background-color: azure;
+    color: cornflowerblue;
+}
+
+.Program input[type="radio"]:hover + label {
+    color:deeppink;
+    font-size: larger;
+}
+
+.Program input[type="radio"]:checked + label{
+    color:deepskyblue
+}
