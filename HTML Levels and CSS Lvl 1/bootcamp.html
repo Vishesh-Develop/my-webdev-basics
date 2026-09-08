@@ -17,7 +17,7 @@
     <h2>Vishesh</h2>
     <p id="Weight">Apna College</p>
 
-    <form action="/script.js" method="post">
+    <form action="/script.js">
         <h1>Provide your basic Details</h1>
         <!--Below is Inline style CSS-->
         <label for="fname" style="color: rgb(32, 178, 98);">Full name: </label>
@@ -68,8 +68,18 @@
         <input type="text" id="state" name="state">
         <br><br>
 
-        <label for="country">Country: </label>
+        <!-- <label for="country">Country: </label>
         <input type="text" id="country" name="Country">
+        <br><br> -->
+
+        <label for="desh">Country: </label>
+        <select name="country" id="desh">
+            <option value="" disabled selected>Select your Country</option>
+            <option value="China">China</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+        </select>
+
         <br><br>
 
         <label for="Course">Course: </label>

@@ -97,6 +97,6 @@ h1::first-letter{
 }
 
 #myid p::selection{
-    background-color: #f52936;
-    color: aliceblue;
+    background-color: azure;
+    color:cornflowerblue;
 }
