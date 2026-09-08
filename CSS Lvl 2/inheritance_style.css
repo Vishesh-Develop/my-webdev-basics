@@ -1,0 +1,13 @@
+div {
+    background-color: cornsilk;
+}
+
+form {
+    background-color: cornflowerblue;
+}
+
+input,button{
+    background-color:azure;
+    color: cornflowerblue;
+    font-weight: 700;
+}

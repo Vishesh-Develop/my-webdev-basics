@@ -1,0 +1,13 @@
+div{
+    height: 200px; /*set the height of content area not the whole div*/
+    width: 500px;
+    background-color: hotpink;
+    /* border-width: 2px;
+    border-color:black;
+    border-style:solid; */
+    border:2px solid black;
+}
+
+h1{
+    border: 2px solid greenyellow;
+}
